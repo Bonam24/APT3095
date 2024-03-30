@@ -16,7 +16,7 @@ from pathlib import Path
 import os
 from .env import *
 
-CSRF_TRUSTED_ORIGINS = ['https://apt3095app.azurewebsites.net/']
+CSRF_TRUSTED_ORIGINS = ['https://apt3095app.azurewebsites.net']
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
